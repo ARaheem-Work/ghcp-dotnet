@@ -1,0 +1,135 @@
+# ----- Visual Studio / .NET -----
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Bb]uild[Ll]og.*
+
+# Visual Studio working folder
+.vs/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# MSBuild intermediate & debug
+*.tlog
+*.cache
+*.gch
+*.obj
+*.pdb
+*.idb
+*.ipdb
+*.pgc
+*.pgd
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+project.lock.json
+project.fragment.lock.json
+# NuGet restore results
+**/project.assets.json
+**/obj/*.nuget.*
+
+# .NET
+artifacts/
+*.deps.json
+*.runtimeconfig.json
+*.dll
+*.exe
+*.appx
+*.appxupload
+*.msix
+*.msixupload
+*.msixbundle
+*.appxbundle
+
+# Publish outputs
+**/publish/
+
+# Test results / coverage
+[Tt]est[Rr]esult*/
+[TestResults]*/
+*.coverage
+*.coveragexml
+coverage*/
+
+# Entity Framework / scaffolding
+[Mm]igrations/obj/
+ScaffoldingReadMe.txt
+
+# IIS / ASP.NET
+App_Data/
+iisexpress/
+ClientBin/
+*.svclog
+
+# Rider / ReSharper
+.idea/
+*.sln.iml
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# VS Code (keep common workspace files if present)
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+
+# StyleCop / analysis
+StyleCopReport.xml
+*.ruleset
+
+# SQL / data
+*.mdf
+*.ldf
+*.ndf
+*.dbmdl
+
+# Misc tooling
+*.jfm
+*.psess
+*.vsp
+*.vspx
+
+# Logs / temp
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Node (if present)
+node_modules/
+
+# Local secrets (never commit secrets)
+secrets.*.json
+*.secrets.json
+
+# JetBrains caches
+.idea/.idea.*
+
+# End of file

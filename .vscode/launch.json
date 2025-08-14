@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "name": "C#: WebApplication1 [Default Configuration]",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/ghcp-dotnet.csproj"
+        }
+    ]
+}

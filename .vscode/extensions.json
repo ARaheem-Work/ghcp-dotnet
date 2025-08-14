@@ -1,0 +1,12 @@
+{
+  // See https://code.visualstudio.com/docs/editor/extension-marketplace#_workspace-recommended-extensions
+  "recommendations": [
+    "ms-dotnettools.csharp", // C# language support
+    "ms-dotnettools.vscode-dotnet-runtime", // .NET runtime support
+    "ms-azuretools.vscode-azurecli", // Azure CLI integration
+    "esbenp.prettier-vscode", // Code formatter (optional)
+    "dbaeumer.vscode-eslint", // JavaScript/TypeScript linting (optional)
+    "ms-dotnettools.csdevkit"
+
+  ]
+}
